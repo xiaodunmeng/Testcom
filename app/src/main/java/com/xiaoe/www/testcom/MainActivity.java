@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         });
         mButton = (Button) findViewById(R.id.bt);
         mButton.setOnClickListener(this);
+        seave();
     }
 
     @Override
@@ -57,6 +58,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
+        //为什么没有唱歌
         Log.v("dd","这是真的吗");
+    }
+
+    private void seave(){
+        Log.v("dd","55");
     }
 }
